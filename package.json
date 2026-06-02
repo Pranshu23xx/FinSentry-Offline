@@ -1,0 +1,13 @@
+{
+  "name": "ticket-mcp-dashboard",
+  "version": "1.0.0",
+  "description": "Ticket JSON API and dashboard with MCP/agent-ready resolver hooks.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

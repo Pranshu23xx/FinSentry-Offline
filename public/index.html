@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket MCP Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="toolbar">
+        <div>
+          <p class="eyebrow">Ticket JSON API</p>
+          <h1>Regulation Ticket Dashboard</h1>
+        </div>
+        <button id="refreshButton">Refresh</button>
+      </section>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="workspace">
+        <form class="panel" id="ticketForm">
+          <h2>Create Ticket</h2>
+          <input name="title" placeholder="Ticket title" required />
+          <select name="source">
+            <option>SEC</option>
+            <option>RBI</option>
+            <option>FINRA</option>
+            <option>Manual</option>
+          </select>
+          <select name="priority">
+            <option value="high">High</option>
+            <option value="medium" selected>Medium</option>
+            <option value="low">Low</option>
+          </select>
+          <textarea name="summary" placeholder="What should be checked?"></textarea>
+          <button type="submit">Add Ticket</button>
+        </form>
+
+        <section class="panel">
+          <div class="list-head">
+            <h2>Tickets</h2>
+            <select id="statusFilter">
+              <option value="">All statuses</option>
+              <option value="open">Open</option>
+              <option value="in_progress">In Progress</option>
+              <option value="blocked">Blocked</option>
+              <option value="finished">Finished</option>
+              <option value="verified">Verified</option>
+            </select>
+          </div>
+          <div class="tickets" id="tickets"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

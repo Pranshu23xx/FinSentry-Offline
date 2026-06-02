@@ -1,0 +1,66 @@
+[
+  {
+    "id": "tkt_sec_rbi_001",
+    "title": "Check RBI digital lending update",
+    "source": "RBI",
+    "summary": "Review recent RBI guidance and confirm whether internal checklist text needs changes.",
+    "status": "verified",
+    "priority": "high",
+    "createdAt": "2026-06-01T00:00:00.000Z",
+    "updatedAt": "2026-06-02T06:18:45.659Z",
+    "finishedAt": "2026-06-01T17:07:41.771Z",
+    "resolver": {
+      "type": "manual",
+      "state": "verified",
+      "mcpServer": null,
+      "agent": null,
+      "lastRunId": "run_d7a1b8ab",
+      "notes": "Marked verified after completion."
+    },
+    "steps": [
+      "Fetch latest source regulation",
+      "Compare against current checklist",
+      "Mark ticket finished after verification"
+    ],
+    "result": {
+      "message": "Ticket tkt_sec_rbi_001 marked finished.",
+      "evidence": [
+        "API smoke test"
+      ],
+      "completedBy": "manual",
+      "completedAt": "2026-06-01T17:07:41.771Z"
+    }
+  },
+  {
+    "id": "tkt_finra_002",
+    "title": "Verify FINRA advertising rule references",
+    "source": "FINRA",
+    "summary": "Confirm rule references used by the onboarding profile are still valid.",
+    "status": "finished",
+    "priority": "medium",
+    "createdAt": "2026-06-01T00:00:00.000Z",
+    "updatedAt": "2026-06-02T06:18:47.697Z",
+    "finishedAt": "2026-06-02T06:18:47.697Z",
+    "resolver": {
+      "type": "manual",
+      "state": "completed",
+      "mcpServer": null,
+      "agent": null,
+      "lastRunId": "run_58be774a",
+      "notes": "Placeholder resolver completed the ticket. Replace createResolverRunner with MCP or agent execution later."
+    },
+    "steps": [
+      "Read regulation source",
+      "Generate simple markdown diff",
+      "Verify and finish"
+    ],
+    "result": {
+      "message": "Ticket tkt_finra_002 marked finished.",
+      "evidence": [
+        "Finished from frontend dashboard"
+      ],
+      "completedBy": "manual",
+      "completedAt": "2026-06-02T06:18:47.697Z"
+    }
+  }
+]
