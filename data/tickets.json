@@ -1,5 +1,186 @@
 [
   {
+    "id": "map_bd51a050a6",
+    "title": "RBI: Implement blocking validation: Loan recovery workflows must not permit communication outside approved hours.",
+    "source": "RBI",
+    "summary": "Loan recovery workflows must not permit communication outside approved hours.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2026-06-26T07:13:30.567Z",
+    "updatedAt": "2026-06-26T07:13:30.567Z",
+    "finishedAt": null,
+    "resolver": {
+      "type": "offline-agent",
+      "state": "ready_for_developer",
+      "mcpServer": "local-json-bridge",
+      "agent": "finsentry-offline-agent",
+      "lastRunId": "agent_4d99d032",
+      "notes": "Created offline from a local circular file. Can be exposed through a local MCP server later."
+    },
+    "map": {
+      "id": "MAP-BD51A050A6",
+      "circularTitle": "RBI Digital Lending Sample Circular",
+      "circularFile": "sample-rbi-digital-lending.md",
+      "sourceFingerprint": "963a05c4af19d23f96f46335bd5aacef5c90884f0f07944909b061129e2b711b",
+      "domain": "lending",
+      "measurableActionPoint": "Loan recovery workflows must not permit communication outside approved hours.",
+      "requiredCodeChange": "Implement blocking validation: Loan recovery workflows must not permit communication outside approved hours.",
+      "acceptanceCriteria": [
+        "Relevant code path or configuration is updated.",
+        "A local test, log sample, or manual evidence note proves the behavior.",
+        "Evidence maps back to: Loan recovery workflows must not permit communication outside approved hours."
+      ]
+    },
+    "steps": [
+      "Implement blocking validation: Loan recovery workflows must not permit communication outside approved hours.",
+      "Update the relevant code, config, validation, logging, or reporting path.",
+      "Add local evidence in the result/evidence field when marking finished.",
+      "Mark verified after compliance review."
+    ],
+    "result": null
+  },
+  {
+    "id": "map_0c0c657796",
+    "title": "RBI: Implement reporting control: The system should monitor failed repayment mandate attempts and report repeated failures to t...",
+    "source": "RBI",
+    "summary": "The system should monitor failed repayment mandate attempts and report repeated failures to the compliance team.",
+    "status": "open",
+    "priority": "medium",
+    "createdAt": "2026-06-26T07:13:30.567Z",
+    "updatedAt": "2026-06-26T07:13:30.567Z",
+    "finishedAt": null,
+    "resolver": {
+      "type": "offline-agent",
+      "state": "ready_for_developer",
+      "mcpServer": "local-json-bridge",
+      "agent": "finsentry-offline-agent",
+      "lastRunId": "agent_4d99d032",
+      "notes": "Created offline from a local circular file. Can be exposed through a local MCP server later."
+    },
+    "map": {
+      "id": "MAP-0C0C657796",
+      "circularTitle": "RBI Digital Lending Sample Circular",
+      "circularFile": "sample-rbi-digital-lending.md",
+      "sourceFingerprint": "963a05c4af19d23f96f46335bd5aacef5c90884f0f07944909b061129e2b711b",
+      "domain": "regulatory-reporting",
+      "measurableActionPoint": "The system should monitor failed repayment mandate attempts and report repeated failures to the compliance team.",
+      "requiredCodeChange": "Implement reporting control: The system should monitor failed repayment mandate attempts and report repeated failures to t...",
+      "acceptanceCriteria": [
+        "Relevant code path or configuration is updated.",
+        "A local test, log sample, or manual evidence note proves the behavior.",
+        "Evidence maps back to: The system should monitor failed repayment mandate attempts and report repeated failures to the compliance team."
+      ]
+    },
+    "steps": [
+      "Implement reporting control: The system should monitor failed repayment mandate attempts and report repeated failures to t...",
+      "Update the relevant code, config, validation, logging, or reporting path.",
+      "Add local evidence in the result/evidence field when marking finished.",
+      "Mark verified after compliance review."
+    ],
+    "result": null
+  },
+  {
+    "id": "map_c7036942ec",
+    "title": "RBI: Implement disclosure or consent control: Regulated entities shall maintain audit logs for customer consent events and retain them for...",
+    "source": "RBI",
+    "summary": "Regulated entities shall maintain audit logs for customer consent events and retain them for review.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2026-06-26T07:13:30.567Z",
+    "updatedAt": "2026-06-26T07:13:30.567Z",
+    "finishedAt": null,
+    "resolver": {
+      "type": "offline-agent",
+      "state": "ready_for_developer",
+      "mcpServer": "local-json-bridge",
+      "agent": "finsentry-offline-agent",
+      "lastRunId": "agent_4d99d032",
+      "notes": "Created offline from a local circular file. Can be exposed through a local MCP server later."
+    },
+    "map": {
+      "id": "MAP-C7036942EC",
+      "circularTitle": "RBI Digital Lending Sample Circular",
+      "circularFile": "sample-rbi-digital-lending.md",
+      "sourceFingerprint": "963a05c4af19d23f96f46335bd5aacef5c90884f0f07944909b061129e2b711b",
+      "domain": "customer-protection",
+      "measurableActionPoint": "Regulated entities shall maintain audit logs for customer consent events and retain them for review.",
+      "requiredCodeChange": "Implement disclosure or consent control: Regulated entities shall maintain audit logs for customer consent events and retain them for...",
+      "acceptanceCriteria": [
+        "Relevant code path or configuration is updated.",
+        "A local test, log sample, or manual evidence note proves the behavior.",
+        "Evidence maps back to: Regulated entities shall maintain audit logs for customer consent events and retain them for review."
+      ]
+    },
+    "steps": [
+      "Implement disclosure or consent control: Regulated entities shall maintain audit logs for customer consent events and retain them for...",
+      "Update the relevant code, config, validation, logging, or reporting path.",
+      "Add local evidence in the result/evidence field when marking finished.",
+      "Mark verified after compliance review."
+    ],
+    "result": null
+  },
+  {
+    "id": "map_3c1bb2e41a",
+    "title": "RBI: Implement disclosure or consent control: Banks must disclose all fees and charges to borrowers before loan execution.",
+    "source": "RBI",
+    "summary": "Banks must disclose all fees and charges to borrowers before loan execution.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2026-06-26T07:13:30.566Z",
+    "updatedAt": "2026-06-26T07:13:30.566Z",
+    "finishedAt": null,
+    "resolver": {
+      "type": "offline-agent",
+      "state": "ready_for_developer",
+      "mcpServer": "local-json-bridge",
+      "agent": "finsentry-offline-agent",
+      "lastRunId": "agent_4d99d032",
+      "notes": "Created offline from a local circular file. Can be exposed through a local MCP server later."
+    },
+    "map": {
+      "id": "MAP-3C1BB2E41A",
+      "circularTitle": "RBI Digital Lending Sample Circular",
+      "circularFile": "sample-rbi-digital-lending.md",
+      "sourceFingerprint": "963a05c4af19d23f96f46335bd5aacef5c90884f0f07944909b061129e2b711b",
+      "domain": "customer-protection",
+      "measurableActionPoint": "Banks must disclose all fees and charges to borrowers before loan execution.",
+      "requiredCodeChange": "Implement disclosure or consent control: Banks must disclose all fees and charges to borrowers before loan execution.",
+      "acceptanceCriteria": [
+        "Relevant code path or configuration is updated.",
+        "A local test, log sample, or manual evidence note proves the behavior.",
+        "Evidence maps back to: Banks must disclose all fees and charges to borrowers before loan execution."
+      ]
+    },
+    "steps": [
+      "Implement disclosure or consent control: Banks must disclose all fees and charges to borrowers before loan execution.",
+      "Update the relevant code, config, validation, logging, or reporting path.",
+      "Add local evidence in the result/evidence field when marking finished.",
+      "Mark verified after compliance review."
+    ],
+    "result": null
+  },
+  {
+    "id": "tkt_8484225f",
+    "title": "2",
+    "source": "eee",
+    "summary": "fff",
+    "status": "open",
+    "priority": "low",
+    "createdAt": "2026-06-26T07:06:55.637Z",
+    "updatedAt": "2026-06-26T07:06:55.637Z",
+    "finishedAt": null,
+    "resolver": {
+      "type": "manual",
+      "state": "not_started",
+      "mcpServer": null,
+      "agent": null,
+      "lastRunId": null,
+      "notes": "Ready for future MCP or AI agent execution."
+    },
+    "steps": [],
+    "result": null
+  },
+  {
     "id": "tkt_sec_rbi_001",
     "title": "Check RBI digital lending update",
     "source": "RBI",
