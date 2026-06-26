@@ -1,0 +1,66 @@
+{
+  "DPSC-2021": {
+    "name": "Digital Payment Security Controls",
+    "category": "authentication",
+    "url": "https://dtf.in/wp-content/files/RBI_Master_Direction_dated_18.02.2021_-_Digital_Payment_Security_Controls.pdf",
+    "fetchedAt": "2026-06-26T10:02:20.960Z",
+    "pageCount": 88,
+    "fileSize": 263627
+  },
+  "AUTH-2025": {
+    "name": "Authentication Mechanisms for Digital Payment Transactions",
+    "category": "authentication",
+    "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2025/12/reserve-bank-of-india-rbi-authentication-mechanisms-for-digital-payment-transactions-directions-2025.pdf.coredownload.pdf",
+    "fetchedAt": "2026-06-26T10:02:21.756Z",
+    "pageCount": 100,
+    "fileSize": 299990
+  },
+  "CR-2024": {
+    "name": "Cyber Resilience and Digital Payment Security Controls for non-bank PSOs",
+    "category": "authentication",
+    "url": "https://caalley.com/rbi_mc_md_25/md/MD123C0C6F7FF70E34F3DA5623B9E72AB3181.pdf",
+    "fetchedAt": "2026-06-26T10:02:35.044Z",
+    "pageCount": 353,
+    "fileSize": 1057805
+  },
+  "IT-GRC-2023": {
+    "name": "Information Technology Governance, Risk, Controls and Assurance Practices",
+    "category": "it-governance",
+    "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/107MDITGOVERNANCE3303572008604C67AC25B84292D85567.PDF",
+    "fetchedAt": "2026-06-26T10:02:57.536Z",
+    "pageCount": 436,
+    "fileSize": 1305060
+  },
+  "KYC-2025": {
+    "name": "Know Your Customer Master Direction",
+    "category": "kyc",
+    "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/05MD56DF4232873F466191DC23F39F1012DD.PDF",
+    "fetchedAt": "2026-06-26T10:03:01.125Z",
+    "pageCount": 51,
+    "fileSize": 150409
+  },
+  "FRAUD-2024": {
+    "name": "Fraud Risk Management in Commercial Banks and All India Financial Institutions",
+    "category": "fraud",
+    "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/119MD1507243E72581B827246DA93059E0EC1951F6F.PDF",
+    "fetchedAt": "2026-06-26T10:03:14.337Z",
+    "pageCount": 352,
+    "fileSize": 1053373
+  },
+  "PAY-2025": {
+    "name": "Payment System Operator Regulations",
+    "category": "payments",
+    "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/143MD.PDF",
+    "fetchedAt": "2026-06-26T10:03:17.757Z",
+    "pageCount": 191,
+    "fileSize": 572205
+  },
+  "PPI-2021": {
+    "name": "Prepaid Payment Instruments",
+    "category": "payments",
+    "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/82MDPPIS2708202181CF0A6FCD1B47B88CAE8E92A228B160.PDF",
+    "fetchedAt": "2026-06-26T10:03:32.170Z",
+    "pageCount": 242,
+    "fileSize": 724805
+  }
+}
