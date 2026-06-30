@@ -7,11 +7,13 @@
     "start": "node server.js",
     "terminal": "node terminal.js",
     "agent": "node run-agent.js",
-    "mcp": "node mcp/mcp-server.js"
+    "mcp": "node mcp/mcp-server.js",
+    "cli": "bun cli/index.ts"
   },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.11.0",
+    "@opentui/core": "^0.4.2",
     "express": "^4.21.2",
     "pdf-parse": "^1.1.1",
     "zod": "^3.24.0"
