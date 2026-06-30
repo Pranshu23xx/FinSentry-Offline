@@ -5,7 +5,7 @@ const crypto = require("crypto");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-const DATA_DIR = path.join(__dirname, "data");
+const DATA_DIR = path.join(__dirname, "mcp", "data");
 const TICKETS_FILE = path.join(DATA_DIR, "tickets.json");
 const PUBLIC_DIR = path.join(__dirname, "public");
 
