@@ -5,6 +5,7 @@ const statusFilter = document.getElementById("statusFilter");
 
 loadTickets();
 
+
 document.getElementById("refreshButton").addEventListener("click", loadTickets);
 statusFilter.addEventListener("change", loadTickets);
 
