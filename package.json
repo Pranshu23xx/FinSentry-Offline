@@ -10,6 +10,9 @@
     "mcp": "node mcp/mcp-server.js",
     "cli": "bun cli/index.ts"
   },
+  "bin": {
+    "finsentry": "cli/index.ts"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.11.0",
